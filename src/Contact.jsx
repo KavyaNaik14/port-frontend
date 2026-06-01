@@ -4,7 +4,6 @@ import {
   Mail,
   Linkedin,
   Github,
-  Twitter,
   MapPin,
   Phone,
 } from "lucide-react";
@@ -237,14 +236,6 @@ function Contact() {
                 >
                   <Linkedin size={22} />
                 </a>
-
-                {/* <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Twitter size={22} />
-                </a> */}
 
               </div>
             </div>
