@@ -1329,17 +1329,19 @@ body,
     font-size: 16px;
   }
 
-  .hero-buttons {
-    flex-direction: column;
-    align-items: center;
+   .hero-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 
-  .btn,
-  .resume-btn {
-    width: 100%;
-    max-width: 280px;
-    text-align: center;
+  .hero-buttons .btn,
+  .hero-buttons .resume-btn {
+    width: auto;
+    min-width: 150px;
   }
+}
 
   /* About */
   .about-section {
