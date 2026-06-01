@@ -1329,7 +1329,7 @@ body,
     font-size: 16px;
   }
 
-   .hero-buttons {
+  .hero-buttons {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -1341,7 +1341,6 @@ body,
     width: auto;
     min-width: 150px;
   }
-}
 
   /* About */
   .about-section {
