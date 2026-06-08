@@ -67,13 +67,13 @@ function Hero() {
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="hero-subtitle"
-        >
-          Computer Science & Design Student | Frontend Developer | ML Enthusiast
-        </motion.p>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8, delay: 0.4 }}
+  className="hero-subtitle"
+>
+  Computer Science & Design Student | UI/UX Designer | Frontend Developer
+</motion.p>
 
         <motion.div
           className="hero-buttons"

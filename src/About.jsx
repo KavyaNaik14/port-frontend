@@ -4,7 +4,7 @@ import "./App.css";
 
 function About() {
   const stats = [
-    { value: "3", label: "Projects Completed" },
+    { value: "4", label: "Projects Completed" },
     { value: "2", label: "Internship" },
     { value: "2", label: "Certifications" },
   ];
@@ -23,20 +23,20 @@ function About() {
             <h2 className="about-title">About Me</h2>
 
             <p>
-              I am a Computer Science and Design graduate with a strong foundation in software development, web technologies, and problem-solving. My expertise includes Full Stack Web Development using React.js, JavaScript, Python, MongoDB, and REST APIs. I am passionate about building scalable, user-centric applications that deliver meaningful solutions to real-world challenges.
+              I am a Computer Science and Design graduate with a strong foundation in software development, UI/UX design, and web technologies. My expertise includes Frontend and Full Stack Web Development using React.js, JavaScript, Python, MongoDB, REST APIs, and Figma. I am passionate about creating intuitive, user-centered digital experiences that combine functionality with effective design.
             </p>
 
             <p>
-              Through internships at Cognifyz Technologies and Prinston Smart Engineers, I have gained hands-on experience in frontend and full-stack development, working on responsive web applications, API integration, testing, debugging, and deployment. These experiences have strengthened my technical abilities, collaboration skills, and understanding of modern software development practices.
+              Through internships at Cognifyz Technologies and Prinston Smart Engineers, I have gained hands-on experience in frontend and full-stack development, working on responsive web applications, API integration, testing, debugging, and deployment. These experiences have strengthened my technical skills, collaboration abilities, and understanding of modern software development practices.
             </p>
 
             <p>
-              I am a continuous learner who enjoys exploring emerging technologies, particularly in web development and artificial intelligence. My goal is to contribute to innovative projects, enhance user experiences through technology, and grow as a software professional in a dynamic and challenging environment.
+              I enjoy combining design thinking with technology to develop accessible and engaging user experiences. With experience in wireframing, prototyping, and user-centered design, I continuously explore new tools and technologies to improve both usability and functionality. My goal is to contribute to innovative products, enhance user experiences, and grow as a software and design professional in a dynamic environment.
             </p>
 
             <div className="stats">
               {/* Resume Section */}
-              
+
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}

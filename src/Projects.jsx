@@ -4,6 +4,86 @@ import { motion } from "framer-motion";
 import "./App.css";
 
 const projects = [
+{
+  title: "EDA Workspace Redesign",
+  description:
+    "UI/UX redesign of an Electronic Design Automation workspace using Figma to improve navigation and workflow efficiency.",
+  image:
+    "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80",
+
+  tags: [
+    "Figma",
+    "UI/UX Design",
+    "Wireframing",
+    "Prototyping"
+  ],
+
+  github: "https://github.com/KavyaNaik14/EDA-Project",
+
+  details: (
+    <>
+      <h3>Overview</h3>
+      <p>
+        EDA Workspace Redesign is a UI/UX case study focused on
+        improving the usability and workflow of an Electronic Design
+        Automation (EDA) tool. The project aims to simplify navigation,
+        reduce interface complexity, and enhance the overall user
+        experience for engineers working with design and simulation
+        software.
+      </p>
+
+      <h3>Problem Statement</h3>
+      <p>
+        Existing engineering software often contains complex menus,
+        cluttered interfaces, and inefficient workflows that slow down
+        productivity. The goal was to redesign the workspace to provide
+        faster navigation and a more intuitive user experience.
+      </p>
+
+      <h3>Research & Analysis</h3>
+      <ul>
+        <li>Analyzed engineering software interfaces and workflows.</li>
+        <li>Identified navigation challenges and usability issues.</li>
+        <li>Studied modern dashboard and productivity design patterns.</li>
+      </ul>
+
+      <h3>Design Process</h3>
+      <ul>
+        <li>User Research</li>
+        <li>User Personas</li>
+        <li>User Flow Design</li>
+        <li>Wireframing</li>
+        <li>UI Design</li>
+        <li>Interactive Prototyping</li>
+      </ul>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li>Command Palette (⌘K) for quick actions</li>
+        <li>Improved workspace navigation</li>
+        <li>Contextual action panels</li>
+        <li>Responsive dashboard layouts</li>
+        <li>Interactive prototype and user flows</li>
+        <li>Reusable UI components</li>
+      </ul>
+
+      <h3>Tools Used</h3>
+      <p>
+        Figma, Wireframing, User Flow Design,
+        Interaction Design, Prototyping
+      </p>
+
+      <h3>Outcome</h3>
+      <p>
+        Designed a modern EDA workspace concept that improves
+        navigation efficiency, reduces user effort, and demonstrates
+        user-centered design principles through wireframes,
+        prototypes, and reusable UI components.
+      </p>
+    </>
+  )
+},
+
   {
   title: "Online Items Buy and Sell Portal",
   description:
