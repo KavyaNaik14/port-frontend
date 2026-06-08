@@ -12,7 +12,7 @@ function Hero() {
     }
   };
 
-  
+
 
   return (
 
@@ -67,13 +67,13 @@ function Hero() {
         </motion.h1>
 
         <motion.p
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ duration: 0.8, delay: 0.4 }}
-  className="hero-subtitle"
->
-  Computer Science & Design Student | UI/UX Designer | Frontend Developer
-</motion.p>
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="hero-subtitle"
+        >
+          Computer Science & Design Student | UI/UX Designer | Frontend Developer
+        </motion.p>
 
         <motion.div
           className="hero-buttons"
@@ -90,12 +90,20 @@ function Hero() {
           </a>
 
           <a
-            href="/Kavya_j_Naik_cg017.pdf"
+            href="/Kavya_Naik_CG017.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn resume-btn"
           >
-            Resume
+            View Resume
+          </a>
+
+          <a
+            href="/Kavya_Naik_CG017.pdf"
+            download="Kavya_Naik_Resume.pdf"
+            className="btn primary"
+          >
+            Download Resume
           </a>
         </motion.div>
 
